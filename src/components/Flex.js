@@ -1,11 +1,11 @@
 import React from 'react'
 
 export default function Flex({
+  alignItems,
   children,
-  crossAxis: alignItems,
   direction: flexDirection,
   gap,
-  mainAxis: justifyContent,
+  justifyContent,
 }) {
   return (
     <div

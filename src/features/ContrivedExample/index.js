@@ -73,7 +73,7 @@ export default function ContrivedExample() {
         />
 
         <Spacer top={1}>
-          <Flex mainAxis="flex-end" gap={bs()}>
+          <Flex justifyContent="flex-end" gap={bs()}>
             <Button onClick={resetValue} variant="secondary">
               Reset
             </Button>
@@ -99,7 +99,7 @@ export default function ContrivedExample() {
             <HackDisplay value={value} />
 
             <Spacer top={1}>
-              <Flex mainAxis="flex-end">
+              <Flex justifyContent="flex-end">
                 <Button onClick={close}>Hide</Button>
               </Flex>
             </Spacer>
