@@ -1,3 +1,4 @@
+import React from 'react'
 import { bs } from '../../utils'
 
 export default function HackDisplay({ value }) {
